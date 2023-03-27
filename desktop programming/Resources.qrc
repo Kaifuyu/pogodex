@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>Grafiki/safe.png</file>
+        <file>Grafiki/sail.png</file>
+        <file>Grafiki/ski.png</file>
+        <file>Grafiki/travel.png</file>
+        <file>Grafiki/week.png</file>
+        <file>Grafiki/lupa.jpg</file>
+    </qresource>
+</RCC>
