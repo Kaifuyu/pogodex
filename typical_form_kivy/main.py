@@ -108,7 +108,7 @@ class FormApp(App):
 
         answerquestioncheckbox = CheckBox(
             size_hint_y=None,
-            pos_hint={"y": .31}
+            pos_hint={"y": .3}
         )
         self.root.add_widget(answerquestioncheckbox)
 
@@ -116,7 +116,7 @@ class FormApp(App):
             text='Zatwierdź',
             size_hint=(None, None),
             size=(80, 30),
-            pos_hint={"center_x": .5, "y": .30}
+            pos_hint={"center_x": .5, "y": .29}
         )
         self.root.add_widget(submitbutton)
 
