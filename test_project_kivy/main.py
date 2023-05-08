@@ -1,5 +1,3 @@
-import kivy
-
 from kivy.app import App
 
 from kivy.uix.floatlayout import FloatLayout
@@ -10,10 +8,10 @@ class MyApp(App):
         self.root = FloatLayout()
 
         button = Button(
-            text = "Kliknij mnie!",
-            size_hint = (None,None),
-            size = (100,50),
-            pos_hint = ({'center_x': .5, 'center_y': .5})
+            text="Kliknij mnie!",
+            size_hint=(None,None),
+            size=(100,50),
+            pos_hint=({'center_x': .5, 'center_y': .5})
         )
         self.root.add_widget(button)
 
