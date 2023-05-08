@@ -26,13 +26,6 @@ Builder.load_string("""
         height: 20
         on_release: root.select("Gdańsk")
 </CityDropDown>
-
-<FirstNameTextInput>
-    size_hint_y: None
-    height: 30
-    pos_hint: {"center_x": .5,"y": .65}
-    focus: True
-</FirstNameTextInput>
 """)
 
 class CityDropDown(DropDown):
@@ -59,7 +52,11 @@ class FormApp(App):
         )
         self.root.add_widget(namelabel)
 
-        nametextinput = FirstNameTextInput()
+        nametextinput = TextInput(
+            size_hint_y=None,
+            height=30,
+            pos_hint={"center_x": .5, "y": .65}
+        )
         self.root.add_widget(nametextinput)
 
         lastnamelabel = Label(
